@@ -1,0 +1,28 @@
+{
+    "products": [
+        {
+            "name": "shose",
+            "price":"20",
+            "password":"Ahmed@123",
+            "rePassword":"Ahmed@123",
+            "phone":"01010700700"
+        },
+        {
+            "name": "shose",
+            "price":"20",
+            "password":"Ahmed@123",
+            "rePassword":"Ahmed@123",
+            "phone":"01010700700"
+        },
+        {
+            "name": "shose",
+            "price":"20",
+            "password":"Ahmed@123",
+            "rePassword":"Ahmed@123",
+            "phone":"01010700700"
+        }
+
+    ]
+}
+
+
