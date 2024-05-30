@@ -8,7 +8,7 @@ import { FeaturesComponent } from './features/features.component';
 import { IcecoffeComponent } from './icecoffe/icecoffe.component';
 
 const routes: Routes = [
-  {path:'',redirectTo:'signup',pathMatch:'full'},
+  {path:'',redirectTo:'signup',pathMatch:'full' },
   {path:'home',component:HomeComponent},
   {path:'categories',component:CategoriesComponent ,children:[
     {path:'icecoffe',component:IcecoffeComponent}

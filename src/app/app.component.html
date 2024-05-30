@@ -1,7 +1,10 @@
-
-<app-navbar></app-navbar>
+<!-- 
+//incase of logeed -->
+<app-navbar *ngIf="!valFromSurvice"></app-navbar>
+<!-- //incase of not logged -->
+<app-navbarout  *ngIf="valFromSurvice"></app-navbarout>
 <div class="container-fluid">
     <router-outlet></router-outlet>
 </div>
 <app-footer></app-footer>
-
+ 
